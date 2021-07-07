@@ -707,6 +707,81 @@ jkhgjhghjugjkhkjk
     transition: all 0.3s;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 20 10 10 20;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    background-color: #dd99ff;
+    padding: 20px;
+  }
+  
+  .section-title{
+    font-family: var(--Patua);
+    font-size: 6vmin;
+    color: blacksmoke;
+    text-align: center;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(106, 8, 131, 0.8);
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 20px;
+  }
+  
+  .purchase > h1 {
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+    font-family: var(--Lobster);
+  }
+  
+  .purchase > p {
+    color: var(--light-black);
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+  }
+  
+  .purchase .cards .card {
+    width: 50rem;
+    height: 15rem;
+    margin: 3vmin 3vmin;
+    display: inline-block;
+  }
+  
+
+.cards div {
+    padding: 10;
+    margin: 10 auto 10 auto;
+  }
+  
+  .cards .title {
+    background: rgba(99, 159, 194, 0.74);
+    padding: 1.4em 2.5em;
+    font-size: 2vmin;
+  }
+  
+  .card .card-text {
+    padding: 2.5rem 3rem;
+    color: var(--light-black);
+  }
+  
+  .card-body .pricing {
+    background: rgba(177, 31, 177, 0.89);
+    border-top-right-radius: 150px;
+    border-top-left-radius: 150px;
+  }
+  
+  .card-body .pricing > h1 {
+    font-size: 10vmin;
+    padding: 1em 0.5em;
+  }
+
+
+
+
 .newslatter-section.about-newslatter .newslatter-inner {
     margin-top: 0;
 }
